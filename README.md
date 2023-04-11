@@ -7,7 +7,7 @@ In the begining, it simulates the epidemic given fixed inputs.
 Then, it defines the simulation process (SEIR_simulation function) via multi-feauture SEIR model. 
 The vaccination is also considered in the function. 
 The SEIR_simulation_greedy function applies to the vaccination strategy provided by gurobi solver. 
-Section III defines several vaccination strategies. 
+Section III defines several vaccination strategies. Specicically, the optimal_vaccination function prioritize vaccination by solving the optimization problem.
 Section IV defines the output format. 
 Section V defines the simulation input parameters.  
 Section VI gives epidemic simulations with different vaccination strategy. 
