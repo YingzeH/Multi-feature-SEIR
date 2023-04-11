@@ -3,7 +3,10 @@
 Gurobi package is required to some the optimization problem defined. For installation, please see: https://www.gurobi.com.
 
 The SEIR simulation.ipynb:
-In the begining, it simulates the epidemic given fixed inputs. Then, it defines the simulation process (SEIR_simulation function) via multi-feauture SEIR model. The vaccination is also considered in the function. The SEIR_simulation_greedy function applies to the vaccination strategy provided by gurobi solver. 
+In the begining, it simulates the epidemic given fixed inputs. 
+Then, it defines the simulation process (SEIR_simulation function) via multi-feauture SEIR model. 
+The vaccination is also considered in the function. 
+The SEIR_simulation_greedy function applies to the vaccination strategy provided by gurobi solver. 
 Section III defines several vaccination strategies. 
 Section IV defines the output format. 
 Section V defines the simulation input parameters.  
