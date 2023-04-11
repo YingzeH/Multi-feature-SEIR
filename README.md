@@ -6,4 +6,4 @@ The SEIR simulation.ipynb simulates the epidemic given fixed inputs. It defines 
 
 The SEIR stochastic simulation.ipynb. Each section does the same thing as SEIR simulation.ipynb.
 
-The SEIR vs real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny county in US (covid_confirmed_usafacts.csv).
+The SEIR vs Real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny county in US (covid_confirmed_usafacts.csv).
