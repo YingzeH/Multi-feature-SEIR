@@ -15,4 +15,4 @@ Section VII displays the results. Section VIII compares the effect of changing p
 
 The SEIR stochastic simulation.ipynb has the same sections as SEIR simulation.ipynb.
 
-The SEIR vs Real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny county in US (covid_confirmed_usafacts.csv).
+The SEIR vs Real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton county in US.
