@@ -22,6 +22,8 @@ Section VI gives epidemic simulations with different vaccination strategy.
 
 Section VII displays the results. Section VIII compares the effect of changing population parameters under no vaccination.
 
+
 The SEIR stochastic simulation.ipynb has the same sections as SEIR simulation.ipynb.
+
 
 The SEIR vs Real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton county in US.
