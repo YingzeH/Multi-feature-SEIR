@@ -17,19 +17,16 @@ Section VII displays the results.
 Section VIII compares the effect of changing population parameters under no vaccination.
 
 
-The SEIR stochastic simulation.ipynb has the same sections as SEIR simulation.ipynb. It further defines a vaccination strategy considering uncertainty in estimation.
+SEIR stochastic simulation.ipynb further defines a vaccination strategy considering uncertainty in estimation.
 
-(1) Section II defines the pandemic simulation process using multi-feature SEIR model.
+- Section II defines the pandemic simulation process using multi-feature SEIR model.
 
-(2) Section III defines several vaccination strategies. Section 3.5 CCP optimization defines the chance-constraint version of the optimization (minimizing the affected susceptible population), allowing the uncertainty of change in the susceptible population.
+- Section III defines several vaccination strategies. Section 3.5 CCP optimization defines the chance-constraint version of the optimization (minimizing the affected susceptible population), allowing the uncertainty of change in the susceptible population.
 
-(3) Section IV defines the output format for computation.
-
-(4) Section V defines the simulation input parameters. 
-
-(5) Section VI gives epidemic simulations with different vaccination strategies. 
-
-(6) Section VII displays the results. 
+- Section IV defines the output format for computation.
+Section V defines the simulation input parameters. 
+Section VI gives epidemic simulations with different vaccination strategies. 
+Section VII displays the results. 
 
 
 The SEIR vs Real.ipynb compares the infection cases from the classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton County in US. It uses the file "covid infection Allegheny County.xlsx" and "covid infection Hamilton County.xlsx" (confirmed cases) to check the performance of SEIR models. These two files are summarized from the file "covid_confirmed_usafacts.csv".
