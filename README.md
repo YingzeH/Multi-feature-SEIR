@@ -18,10 +18,14 @@ The SEIR simulation.ipynb:
 
 (7) Section VI gives epidemic simulations with different vaccination strategies. 
 
-(8) Section VII displays the results. Section VIII compares the effect of changing population parameters under no vaccination.
+(8) Section VII displays the results. 
+
+(9) Section VIII compares the effect of changing population parameters under no vaccination.
 
 
 The SEIR stochastic simulation.ipynb has the same sections as SEIR simulation.ipynb.
 
 
-The SEIR vs Real.ipynb compares the infection cases from the classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton County in US. It uses the file "covid infection Allegheny County.xlsx" and "covid infection Hamilton County.xlsx" (confirmed cases) to check the performance of SEIR models.
+The SEIR vs Real.ipynb compares the infection cases from the classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton County in US. It uses the file "covid infection Allegheny County.xlsx" and "covid infection Hamilton County.xlsx" (confirmed cases) to check the performance of SEIR models. These two files are summarized from the file "covid_confirmed_usafacts.csv".
+
+S1.File summarizes the performance (highest infection and cumulative death) for vaccination strategies in different situations (High-High, Low-High, High-Low, Low-Low). It can be produced by SEIR simulation.ipynb.
