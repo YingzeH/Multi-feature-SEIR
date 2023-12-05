@@ -2,25 +2,19 @@
 
 Gurobi package is required to solve the optimization problem defined. For installation, please see: https://www.gurobi.com.
 
-The SEIR simulation.ipynb:
+SEIR simulation.ipynb:
 
-(1) In the begining, it simulates the epidemic given fixed inputs. 
+- In the begining, it simulates the epidemic given fixed inputs. 
+Then, it defines the simulation process (SEIR_simulation function) via multi-feature SEIR model. Vaccination is also considered in the function. 
+The SEIR_simulation_greedy function applies to the vaccination strategy provided by gurobi solver. 
 
-(2) Then, it defines the simulation process (SEIR_simulation function) via multi-feature SEIR model. Vaccination is also considered in the function. 
+- Section III defines several vaccination strategies. Specifically, the "optimal_vaccination" function prioritizes vaccination by solving the optimization problem (minimizing the affected susceptible population).
 
-(3) The SEIR_simulation_greedy function applies to the vaccination strategy provided by gurobi solver. 
-
-(4) Section III defines several vaccination strategies. Specifically, the "optimal_vaccination" function prioritizes vaccination by solving the optimization problem (minimizing the affected susceptible population).
-
-(5) Section IV defines the output format. 
-
-(6) Section V defines the simulation input parameters. 
-
-(7) Section VI gives epidemic simulations with different vaccination strategies. 
-
-(8) Section VII displays the results. 
-
-(9) Section VIII compares the effect of changing population parameters under no vaccination.
+- Section IV defines the output format. 
+Section V defines the simulation input parameters. 
+Section VI gives epidemic simulations with different vaccination strategies. 
+Section VII displays the results. 
+Section VIII compares the effect of changing population parameters under no vaccination.
 
 
 The SEIR stochastic simulation.ipynb has the same sections as SEIR simulation.ipynb. It further defines a vaccination strategy considering uncertainty in estimation.
