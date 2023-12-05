@@ -26,4 +26,4 @@ The SEIR simulation.ipynb:
 The SEIR stochastic simulation.ipynb has the same sections as SEIR simulation.ipynb.
 
 
-The SEIR vs Real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton county in US.
+The SEIR vs Real.ipynb compares the infection cases from classic SEIR model, multi-feature SEIR model, and confirmed cases in Allegheny and Hamilton county in US. It uses the file covid infection Allegheny County.xlsx and covid infection Hamilton County.xlsx as a comparison to reality cases.
